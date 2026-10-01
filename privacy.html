@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizmo privacy policy</title>
+<meta name="description" content="How Gizmo, a private household voice assistant, uses Google Calendar data.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="date">Effective October 1, 2026</p>
+
+  <p>Gizmo is a voice assistant that one family runs on its own computer at home. It is not a public service. Only members of that household connect their accounts to it.</p>
+
+  <h2>What Gizmo accesses from Google</h2>
+  <p>When a household member connects a Google account, Gizmo asks for two permissions:</p>
+  <ul>
+    <li>See the list of calendars on the account (<code>calendar.calendarlist.readonly</code>).</li>
+    <li>View and edit events on those calendars (<code>calendar.events</code>).</li>
+  </ul>
+  <p>Gizmo asks for nothing else. It does not access email, contacts, files or photos.</p>
+
+  <h2>How Gizmo uses it</h2>
+  <ul>
+    <li>To answer spoken questions about the family schedule.</li>
+    <li>To add an event when a household member asks out loud. Gizmo reads the event back and writes it only after a yes.</li>
+  </ul>
+  <p>Gizmo does not use calendar data for advertising or profiling. It does not use calendar data to train AI models.</p>
+
+  <h2>Where the data is kept</h2>
+  <ul>
+    <li>Sign-in tokens are stored on the household computer. They live in the macOS Keychain or in a private file that only the computer's owner can read.</li>
+    <li>Calendar events are fetched from Google when they are needed. Gizmo does not save them.</li>
+    <li>Gizmo keeps a log of spoken requests on the same computer for troubleshooting. Its spoken calendar answers are left out of that log. A request itself can mention a calendar event.</li>
+    <li>Requests are handled by an AI model that runs on the household computer itself. Gizmo is set up so calendar data does not go to any outside AI service.</li>
+  </ul>
+
+  <h2>Sharing</h2>
+  <p>Gizmo does not sell, rent or share Google user data with anyone. Nobody outside the household has access to it.</p>
+
+  <h2>Limited Use</h2>
+  <p>Gizmo's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Removing access</h2>
+  <p>You can disconnect Gizmo at any time. Go to <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> and remove Gizmo. After that it can no longer read or change your calendar. The household can also delete your stored sign-in from the computer.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, this page will be updated and the date at the top will change.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be posted at <a href="https://github.com/Montaghjr/montaghjr.github.io/issues">github.com/Montaghjr/montaghjr.github.io/issues</a>.</p>
+
+  <footer>
+    <a href="index.html">Gizmo home</a>
+  </footer>
+</main>
+</body>
+</html>
