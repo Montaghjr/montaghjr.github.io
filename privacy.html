@@ -10,7 +10,7 @@
 <body>
 <main>
   <h1>Privacy policy</h1>
-  <p class="date">Effective October 1, 2026</p>
+  <p class="date">Effective October 3, 2026</p>
 
   <p>Gizmo is a voice assistant that one family runs on its own computer at home. It is not a public service. Only members of that household connect their accounts to it.</p>
 
@@ -26,13 +26,15 @@
   <ul>
     <li>To answer spoken questions about the family schedule.</li>
     <li>To add an event when a household member asks out loud. Gizmo reads the event back and writes it only after a yes.</li>
+    <li>To show today's events in the family's own phone app.</li>
   </ul>
   <p>Gizmo does not use calendar data for advertising or profiling. It does not use calendar data to train AI models.</p>
 
   <h2>Where the data is kept</h2>
   <ul>
     <li>Sign-in tokens are stored on the household computer. They live in the macOS Keychain or in a private file that only the computer's owner can read.</li>
-    <li>Calendar events are fetched from Google when they are needed. Gizmo does not save them.</li>
+    <li>Calendar events are fetched from Google when they are needed.</li>
+    <li>For the family's phone app, Gizmo keeps a copy of today's events on the household's own server at home. The copy holds each event's title, its time and whose calendar it is on. It never holds descriptions, guests or locations. The copy is deleted when the day ends.</li>
     <li>Gizmo keeps a log of spoken requests on the same computer for troubleshooting. Its spoken calendar answers are left out of that log. A request itself can mention a calendar event.</li>
     <li>Requests are handled by an AI model that runs on the household computer itself. Gizmo is set up so calendar data does not go to any outside AI service.</li>
   </ul>
